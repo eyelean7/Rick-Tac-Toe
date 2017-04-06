@@ -46,7 +46,7 @@ $(function() {
         $("td").unbind("click");
         $("#2, #5, #8").addClass("highlight");
       }if(array[2]===array[5]&&array[5]===array[8]){
-          alert(array[1] + " wins!");
+          alert(array[2] + " wins!");
           $("td").unbind("click");
           $("#3, #6, #9").addClass("highlight");
       }if(array[0]===array[4]&&array[4]===array[8]){

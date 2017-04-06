@@ -16,12 +16,17 @@ h1 {
 }
 
 img {
-  max-height: 75%;
-  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin: auto;
   display: none;
 }
 .highlight {
   background-color: #67fc7d;
+}
+img.rick {
+  height: 100%;
+  width: 500px;
+  margin: 0px -100px;
+  float: right;
 }
